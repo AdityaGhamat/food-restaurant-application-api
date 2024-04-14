@@ -13,7 +13,7 @@ import cartRouter from "./Routes/cart.js";
 import addressRouter from "./Routes/address.js";
 //middlewares
 dotenv.config();
-app.use(cors({ origin: "https://food-restaurant-client.vercel.app/", credentials: true }));
+app.use(cors({ origin: "https://food-restaurant-client.vercel.app", credentials: true }));
 app.use(express.json());
 app.use(cookieParser());
 
