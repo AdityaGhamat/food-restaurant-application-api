@@ -1,0 +1,32 @@
+{
+  "cart": {
+    "addToCart": "Item added to cart successfully",
+    "getCart": "Cart retrieved successfully",
+    "removeFromCart": "Item removed from cart successfully",
+    "clearCart": "Cart cleared successfully",
+    "increaseQuantity": "Quantity increased successfully",
+    "decreaseQuantity": "Quantity decreased successfully"
+  },
+  "menuItem": {
+    "createMenuItem": "MenuItem created successfully",
+    "getMenuItem": "MenuItem retrieved successfully",
+    "allMenuItems": "MenuItems retrieved successfully",
+    "updateMenuItem": "MenuItem updated successfully",
+    "removeMenuItem": "MenuItem removed successfully",
+    "createReview": "Review created successfully"
+  },
+  "user": {
+    "createUser": "User created successfully",
+    "loginUser": "User logged in successfully",
+    "getUser": "User retrieved successfully",
+    "getAllUsers": "All users retrieved successfully",
+    "createAddress": "Address created successfully",
+    "getAddress": "Address retrieved successfully",
+    "updateAddress": "Address updated successfully",
+    "updatePhoneNumber": "Phonenumber updated successfully"
+  },
+  "restaurant": {
+    "createRestaurant": "Restaurant created successfully",
+    "getRestaurant": "Restaurant retrieved successfully"
+  }
+}

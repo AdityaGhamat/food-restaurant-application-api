@@ -1,0 +1,11 @@
+const express = require("express");
+const router = express.Router();
+const userRoutes = require("./user-routes");
+const menuRoutes = require("./menuItem-routes");
+const cartRoutes = require("./cart-routes");
+const restaurantRoutes = require("./restaurant-routes");
+router.use("/auth", userRoutes);
+router.use("/items", menuRoutes);
+router.use("/cart", cartRoutes);
+router.use("/restaurant", restaurantRoutes);
+module.exports = router;

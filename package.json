@@ -1,15 +1,14 @@
 {
-  "name": "yes",
+  "name": "y",
   "version": "1.0.0",
-  "description": "this is api for restaurant.",
-  "type": "module",
+  "description": "food application using mern stack.this is api for admin section and customer section.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index",
-    "dev": "nodemon index"
+    "dev": "nodemon src/index",
+    "start": "node src/index"
   },
-  "author": "aditya ghamat",
+  "author": "Aditya Ghamat",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
@@ -17,11 +16,13 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
+    "http-status-codes": "^2.3.0",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.3.0",
-    "validator": "^13.11.0"
+    "mongoose": "^8.4.1",
+    "winston": "^3.13.0",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
-    "nodemon": "^3.1.0"
+    "nodemon": "^3.1.3"
   }
 }

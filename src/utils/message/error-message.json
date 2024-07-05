@@ -1,0 +1,32 @@
+{
+  "cart": {
+    "addToCart": "Something went wrong in add to cart",
+    "getCart": "Something went wrong in getCart",
+    "removeFromCart": "Something went wrong in removeFromCart",
+    "clearCart": "Something went wrong in clearCart",
+    "increaseQuantity": "Something went wrong in increaseQuantity",
+    "decreaseQuantity": "Something went wrong in decreaseQuantity"
+  },
+  "menuItem": {
+    "createMenuItem": "Something went wrong while creating menuItem",
+    "getMenuItem": "Something went wrong while getting menuItem",
+    "allMenuItems": "Something went wrong while getting menuItems",
+    "updateMenuItem": "Something went wrong while updating menuItem",
+    "removeMenuItem": "Something went wrong while removing menuItem",
+    "createReview": "Something went wrong while creating review for menuItem"
+  },
+  "user": {
+    "createUser": "Failed to create user",
+    "loginUser": "Failed to login user",
+    "getUser": "Failed to get the user",
+    "getAllUsers": "Failed to get all users",
+    "createAddress": "Failed to create address",
+    "getAddress": "Failed to get address",
+    "updateAddress": "Failed to update address",
+    "updatePhoneNumber": "Failed to update phonenumber"
+  },
+  "restaurant": {
+    "createRestaurant": "Failed to create restaurant",
+    "getRestaurant": "Failed to get restaurant"
+  }
+}
